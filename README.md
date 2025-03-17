@@ -2,6 +2,9 @@
 ### It is a calculator
 #### I think there is no doubt
 ---
+
+![screenshot](screenshot.PNG "Calculator")
+
 Created with VanillaJS, HTML & CSS. It is for The Odin Project Assignment. 
 
 It does not handle 0.1 + 0.2 case, because why it should?
