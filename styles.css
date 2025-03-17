@@ -1,0 +1,147 @@
+*{
+
+	cursor: default;
+	
+}
+h1, p{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #2c3e50;
+}
+
+.container {
+	box-sizing: content-box;
+	height: 85%;
+	width: 85%;
+	padding: 15px;
+	align-self: end;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 10px;
+	padding-bottom: 10%;
+}
+
+.calculator {
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 12%;
+	width: 25%;
+	margin: auto;
+	height: 70%;
+	background: #494747;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.screen {
+	box-sizing: border-box;
+	border-radius: 15%;
+	overflow: hidden;
+	width: 80%;
+	height: 15%;
+	flex: 1;
+	align-self: center;
+	margin-top: 10%;
+	text-align: right;
+	border: 2px solid black;
+	background: #a1a1a1;
+
+
+}
+.keys {
+	display: flex;
+	flex-wrap: wrap;
+	height: 80%;
+	
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10%;;
+}
+
+.numbers {
+	width: 60%;
+	height: 100%;
+	flex: 0 0 auto;
+	
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;	
+	align-content: flex-end; /* for row gaps */
+	gap: 0;
+	row-gap: 0;
+}
+
+
+.numbers div {
+	box-sizing: border-box;
+	border: 2px solid black;
+	width: 30%;
+	height: 20%;
+	flex: 0 0 auto;
+	text-align: center;
+	background: #717070;
+	color: white;
+	padding: 12%;
+	border-radius: 15%;
+}
+#clear{
+	box-sizing: border-box;
+	padding: 5%;
+	padding-right: 0;
+	padding-left: 0;
+
+	background-color: #c4391b;
+	max-width: 90%;
+	height: 10%;
+	flex: 0 0 auto;
+}
+
+
+#null{
+	border: 2px solid #494747;
+	background: #494747;
+}
+
+.operators {
+	width: 30%;
+	height: 100%;
+	flex: 1 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+}
+.operators div {
+	box-sizing: border-box;
+	background: #717070;
+	color: white;
+	border: 2px solid black;
+	width: 30%;
+	height: 20%;
+	flex: 1 1 auto;
+	padding: 20%;
+	border-radius: 15%;
+}
+
+.operators div:active, .numbers div:active {
+	background: #606060;
+	user-select: none;
+}
